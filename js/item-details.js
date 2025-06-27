@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-info">
                 <h1>${product.name}</h1>
                 <p class="description">${product.description}</p>
-                <p class="price">£${product.price.toFixed(2)}</p>
+                <p class="price">$${product.price.toFixed(2)}</p>
                 
                 <div class="size-selection">
                     <label for="size">Size:</label>

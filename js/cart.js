@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         cartTotalContainer.innerHTML = `
-            <p>Total: £${total.toFixed(2)}</p>
+            <p>Total:$${total.toFixed(2)}</p>
         `;
     }
 

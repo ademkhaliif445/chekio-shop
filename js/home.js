@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <img src="${product.image}" alt="${product.name}">
                         <div class="featured-product-details">
                             <h3>${product.name}</h3>
-                            <p>£${product.price.toFixed(2)}</p>
+                            <p>$${product.price.toFixed(2)}</p>
                             <a href="item.html" onclick="selectFeaturedProduct('${product.id}')">View Details</a>
                         </div>
                     </div>
