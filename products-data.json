@@ -1,0 +1,326 @@
+[
+    {
+        "id": "smart-camera",
+        "name": "sonny smart camera",
+        "description": "beutifull phots-black color.",
+        "price": 2000,
+        "category": "electronics",
+        "image": "images/electronics/camera.jpeg",
+        "sizes": ["large", "medium", "small"]
+    },
+    {
+        "id": "head-phones",
+        "name": "head phones",
+        "description": "good qualtiy.",
+        "price": 20,
+        "category": "electronics",
+        "image": "images/electronics/head phones.jpeg",
+        "sizes": ["large", "medium", "small"]
+    },
+    {
+        "id": "smart-wtach",
+        "name": "apple smart wtach",
+        "description": "beutifull phots-black color.",
+        "price": 200.99,
+        "category": "electronics",
+        "image": "images/electronics/smart wtach.jpeg",
+        "sizes": ["large", "medium", "small"]
+    },
+     {
+        "id": "jbl-speaker",
+        "name": "jbl speaker",
+        "description": "beutifull phots-black color.",
+        "price": 19.99,
+        "category": "electronics",
+        "image": "images/electronics/speaker.jpeg",
+        "sizes": ["large", "medium", "small"]
+    }, {
+        "id": "tap-let",
+        "name": "taplet",
+        "description": "good qualtiy.",
+        "price": 1000,
+        "category": "electronics",
+        "image": "images/electronics/taplet.jpeg",
+        "sizes": ["large", "medium", "small"]
+    },
+     {
+        "id": "black-aribian",
+        "name": "black aribian",
+        "description": "beutifull phots-black color.",
+        "price": 14,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/balck arbian.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+     {
+        "id": "casio-wtach",
+        "name": "casio",
+        "description": "good qualtiy.",
+        "price": 20.99,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/casio.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+     {
+        "id": "devonsi-wtach",
+        "name": "devonsi",
+        "description": "good qualtiy.",
+        "price": 20.99,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/devonsi.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "patrick-philip-leather",
+        "name": "patrick philip leather",
+        "description": "good qualtiy.",
+        "price": 54.99,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/patrick philip leather.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "patrick-philip",
+        "name": "patrick philip",
+        "description": "good qualtiy.",
+        "price": 99.99,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/patrick philip.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "peodegar-leather",
+        "name": "peodegar leather",
+        "description": "good qualtiy.",
+        "price": 54.99,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/peodegar leather.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "peodegar-wtach",
+        "name": "peodegar",
+        "description": "good qualtiy.",
+        "price": 54.99,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/peodegar.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "rolex-wtach",
+        "name": "rolex",
+        "description": "good qualtiy.",
+        "price": 20000,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/rolex.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "tomi-barchain",
+        "name": "tomi barchain",
+        "description": ".",
+        "price": 20.89,
+        "category": "",
+        "image": "images/jewlry&accs/tomi (2).jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "tomi-leather",
+        "name": "tomi leather",
+        "description": ".",
+        "price": 15.89,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/tomi leather.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "tomi-wtach",
+        "name": "tomi",
+        "description": "good qualtiy.",
+        "price":25.99,
+        "category": "jewelry",
+        "image": "images/jewlry&accs/tomi.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "gold-creatine",
+        "name": "gold creatine",
+        "description": "energy and good qualty.",
+        "price": 25.99,
+        "category": "suplements",
+        "image": "images/supplements/gold creatine.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },  {
+        "id": "pre-wrokout",
+        "name": "pre wrok out",
+        "description": "energy and good qualty.",
+        "price": 25.99,
+        "category": "suplements",
+        "image": "images/supplements/pre wrok out.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "seriose-mass",
+        "name": "seriose mass",
+        "description": "more protein and orignall.",
+        "price": 54.99,
+        "category": "suplements",
+        "image": "images/supplements/seriose mass.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "whey-protine",
+        "name": "whey protine",
+        "description": "more protein and orignall.",
+        "price":50.99,
+        "category": "suplements",
+        "image": "images/supplements/whey protine.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "adidas-campus",
+        "name": "adidas campus",
+        "description": "good qualtiy.",
+        "price": 27.99,
+        "category": "menfit",
+        "image": "images/men fit/adidas campus.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "adidas-samba",
+        "name": "adidas samba",
+        "description": "good qualtiy.",
+        "price": 23.99,
+        "category": "menfit",
+        "image": "images/men fit/adidas samba.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "black-shirt",
+        "name": "black shirt",
+        "description": "beutifull phots-black color.",
+        "price": 16.99,
+        "category": "menfit",
+        "image": "images/men fit/black shirt.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "blue-shrit",
+        "name": "blue shrit",
+        "description": "good qualtiy.",
+        "price": 20.99,
+        "category": "menfit",
+        "image": "images/men fit/blue shrit.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "jeans-jaket",
+        "name": "jeans jaket",
+        "description": "good qualtiy.",
+        "price": 52.99,
+        "category": "menfit",
+        "image": "images/men fit/jeans jaket.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+      {
+        "id": "jeans-wtach",
+        "name": "jeans",
+        "description": "good qualtiy.",
+        "price": 34.99,
+        "category": "menfit",
+        "image": "images/men fit/jeans.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "LEATHER-JAKET",
+        "name": "LEATHER JAKET",
+        "description": "beutifull phots-black color.",
+        "price": 50.99,
+        "category": "menfit",
+        "image": "images/men fit/LEATHER JAKET.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "lino-pants",
+        "name": "lino pants",
+        "description": "good qualtiy.",
+        "price":20.99 ,
+        "category": "menfit",
+        "image": "images/men fit/lino pants.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+
+    {
+        "id": "lino-shrits",
+        "name": "lino shrits",
+        "description": "good qualtiy.",
+        "price": 20,
+        "category": "menfit",
+        "image": "images/men fit/lino shrits.jpg",
+        "sizes": ["S", "M", "L", "XL"]
+    },{
+        "id": "",
+        "name": "",
+        "description": ".",
+        "price": 54.99,
+        "category": "",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": ".",
+        "price": 54.99,
+        "category": "",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": ".",
+        "price": 54.99,
+        "category": "",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+
+    {
+        "id": "",
+        "name": "",
+        "description": ".",
+        "price": 54.99,
+        "category": "",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": ".",
+        "price": 54.99,
+        "category": "",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": ".",
+        "price": 54.99,
+        "category": "",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": ".",
+        "price": 54.99,
+        "category": "",
+        "image": "",
+        "sizes": ["S", "M", "L", "XL"]
+    }
+
+]

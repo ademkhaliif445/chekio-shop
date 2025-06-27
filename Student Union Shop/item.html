@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCLan Shop - Product Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/images//logoo.png" alt="UCLan Logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+             
+                <button id="logoutButton" class="logout-btn">Logout</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="product-details" class="product-details">
+            <!-- Product details will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UCLan Student Union Shop. All rights reserved.</p>
+    </footer>
+    <script>
+        // Check if the user is logged in
+        const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+      
+        if (!isLoggedIn) {
+          alert("You must be logged in to access this page.");
+          window.location.href = "login.html"; // Redirect to login page
+        }
+      </script>
+    <script src="js/auth.js"></script>
+    <script src="js/item-details.js"></script>
+       
+  
+    
+</body>
+
+</html>
