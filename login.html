@@ -11,10 +11,15 @@
         <nav>
             <div class="logo">
                 <a href="index.html">
-                    <img src="/images/logo2.jpg" alt="UCLan Logo">
+                    <img src="/images/logo2.jpg" alt="chekio Logo">
                 </a>
             </div>
-            <ul>
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navLinks">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="cart.html">Cart</a></li>
@@ -74,6 +79,19 @@
             document.getElementById('logoutNavItem').style.display = 'block';
             document.getElementById('loginLink').style.display = 'none';
         }
+    </script>
+    <script>
+// Responsive nav toggle
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+navToggle.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+        navLinks.classList.toggle('active');
+    }
+});
     </script>
 </body>
 </html>

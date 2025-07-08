@@ -14,7 +14,12 @@
           <img src="/images/logo2.jpg" alt="chekio Logo">
         </a>
       </div>
-      <ul>
+      <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="cart.html">Cart</a></li>
@@ -107,6 +112,18 @@
 
       // Display the total price
       document.getElementById("total-price").textContent = totalPrice.toFixed(2);
+    });
+
+    // Responsive nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    navToggle.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            navLinks.classList.toggle('active');
+        }
     });
   </script>
 </body>

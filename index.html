@@ -17,14 +17,16 @@
                     <img src="/images/logo2.jpg" alt="chekio logo">
                 </a>
             </div>
-            <ul>
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navLinks">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="cart.html">Cart</a></li>
                 <li ><a href="login.html">Login</a></li>
-             
-               
-               
             </ul>
         </nav>
     </header>
@@ -68,7 +70,19 @@
     <script src="js/auth.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/home.js"></script>
-    
+    <script>
+// Responsive nav toggle
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+navToggle.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+        navLinks.classList.toggle('active');
+    }
+});
+</script>
      
 </body>
 
